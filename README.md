@@ -1,0 +1,9 @@
+Download Link: https://assignmentchef.com/product/solved-csci1300-1310-assignment-10-calculating-grades
+<br>
+Calculating  GradesObjective:   1.  Design  and  create  code  in  python  using  simple  classesWrite  a  grading  program  for  a  CS  course.  The  assessments  are  quizzes  (20%),  assignments  (40%),  recitations   (30%),  and  projects  (10%).  Make  each  student  record  the  instantiation  of  a  class  called  record  with  member   variables  username,  last  name,  first  name,  the  numeric  final  score  and  the  final  letter  grade.  Include   member  functions  to  calculate  final  grades  and  produce  a  letter  grade.  Make  a  class  called  course  with   member  variables  name  and  a  collection  (list  or  dictionary)  of  student  records.  The  course  grades  (student   records)  and  the  letter  grade  classification  will  be  read  from  a  file.  The  name  of  the  former  is  passed  in   command  line  (like  in  other  assignments),  the  latter  is  fixed  to  “letterGrade.csv”  as  provided  with  the   example.  You  can  expect  that  the  assessments  will  have  the  word  associated  with  them  plus  a  number  – e.g.  quiz1,  quiz2,  assignment  1,  etc.     The  user  can  retrieve  thus
+
+1.  Calculate  final  grades  (numeric  and  letter)  for  an  individual  by  providing  the   username  (check  for  validity)  or
+
+2.  Final  grades  (numeric  and  letter)  entire  course  grades  or
+
+3.  Quit  (say   Goodbye).  These  will  be  the  test  cases.     For  the  menu  use     print (“1. See records for one student”) print (“2. See all records for the course”) print (“3. Quit”)   If  option  1  is  selected,  ask  the  user  for  the  username  of  the  student.     print (“Enter a valid username”)   The  output  should  be  in  the  form  of       username,  last  name,  first  name,  final  grade,  letter  grade   for  example,     1050702, Montero, Shirly, 9.5, A
